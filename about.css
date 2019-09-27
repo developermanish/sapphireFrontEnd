@@ -1,0 +1,52 @@
+#pageheader
+{
+	text-align: center;
+	border: 3px solid green;
+	color: brown;
+
+}
+#abtus
+{
+  text-align: center;
+  position: absolute;
+  right: 280px;
+  left:350px;
+  
+  padding: 1px;
+
+}
+.split {
+  height: 50%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 100;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+
+.left {
+  left: 150px;
+  background-color: #111;
+}
+
+.right {
+  right: -70px;
+  background-color: red;
+}
+
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+.centered img {
+  width: 500px;
+  border-radius: 60%;
+}
