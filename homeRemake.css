@@ -1,0 +1,133 @@
+body {
+  font-family: "Lato", sans-serif;
+  background: #0a091c;
+}
+
+.sidenav {
+  height: 100%;
+  width: 10%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #0a091c;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav a {
+  padding: 25px 15px 25px 15px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  display: block;
+  font-family: georgia;
+
+}
+
+.sidenav a:hover {
+  color: red;
+}
+
+#logo {
+  width: 100px;
+  height: 100px;
+  margin: 10px auto;
+  background: #131954;
+}
+
+.main {
+  margin-left: 10%;
+  font-size: 28px;
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+.heading {
+    text-align: center;
+    color: white;
+    font-size: 1.2em;
+    font-weight: bold;
+    line-height: 35px;
+    margin-top: 20px;
+}
+iframe{
+  margin:30px ;
+  width:80%;
+  height:300px;
+  border: 0px;
+  box-shadow: 8px 10px rgba(0, 0, 0, 0.1);
+}
+.eventPanel{
+  display: inline;
+}
+.eventImage{
+  margin: 50px;
+  height: 150px;
+  width: 250px;
+  border: 4px solid rgba(241, 41, 20, 0.5);
+  border-radius: 5px;
+  box-shadow: 5px 10px 8px rgba(241, 41, 20, 0.3);
+}
+.eventText{
+  margin-top: 50px;
+  margin-left: 20px;
+  margin-right: 100px;
+  float: right;
+  color: white;
+  text-align: left;
+  width: 60%;
+}
+.date{
+  color:rgb(241, 41, 20);
+  font-size: 0.5em;
+}
+.eventText p{
+  font-size: 0.5em;
+}
+button{
+  background-color: rgb(241, 41, 20);
+  padding-left: 15px;
+  padding-right: 15px;
+  color: white;
+  border: 0px;
+  font-size: 0.8em;
+  margin-bottom: 30px;
+  padding-left: 25px;
+  padding-right: 25px;
+  transition: 0.5s;
+}
+.eventPanel a{
+  float: right;
+  font-size: 0.5em;
+  color: white;
+}
+.eventPanel a:hover{
+  background-color: #0a091c;
+}
+button:hover , button:focus{
+  box-shadow: 0 0.5em 0.5em -0.4em rgb(241, 41, 20);
+  transform: translateY(-0.25em);
+}
+.social a{
+  line-height: 0.1em;
+  padding-bottom: 10px;
+  padding-left: 30%;
+  padding-right: 0px;
+  padding-top: 0px;
+}
+.socialIcon {
+  height: 25px;
+  width: 25px;
+  display: inline-flex;
+  bottom: 0;
+  background-color: #0a091c;
+  overflow: hidden;
+  line-height: .1em;
+}
+.social a:hover{
+  background-color: #0a091c;
+}
