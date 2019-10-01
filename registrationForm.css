@@ -230,14 +230,4 @@ body {
     margin-left:40%;
     margin-top: 5%;
 }
-.image-logo{
-    z-index: 3;
-}
-.mid-logo{
-    margin-left: 47.5%;
-    margin-top: 20%;
-    height: 100px;
-    width: 100px;
-    
-    overflow: visible;
-}
+
